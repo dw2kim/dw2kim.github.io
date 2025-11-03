@@ -1,0 +1,89 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .main_menu .navbar-nav li a {
+        font-size: 12px;
+        padding: 15px 11px
+    }
+    .logo {
+        float: none;
+        text-align: center
+    }
+    .welcome-text div#clock,
+    .welcome-text h2 {
+        font-size: 30px
+    }
+    .welcome-text .home-arrow-down {
+        bottom: -110px
+    }
+    .section-title>p {
+        padding: 0
+    }
+    #navLogo,
+    #navMenu {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-toggle span.icon-bar {
+        background: #fff
+    }
+    .navbar-toggle {
+        margin-right: 0;
+        margin-top: -30px
+    }
+    .navbar {
+        min-height: 0
+    }
+    .main_menu .navbar-nav>li>a {
+        border-bottom: 2px solid #121212
+    }
+    .section-title>p {
+        padding: 0
+    }
+    .main_menu .navbar-nav li a {
+        padding: 11px 15px
+    }
+    .navbar-toggle {
+        margin-top: -34px
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+        border-top: none
+    }
+    .welcome-text div#clock,
+    .welcome-text h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 900
+    }
+    .welcome-text .home-arrow-down {
+        bottom: -130px
+    }
+    .social-media ul li a {
+        height: 35px;
+        line-height: 35px;
+        width: 35px
+    }
+    .section-title h2 {
+        font-size: 22px
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+}
+
+@media only screen and (max-width:480px) {
+    h1 {
+        font-size: 18px
+    }
+    h2 {
+        font-size: 14px
+    }
+    h3 {
+        font-size: 12px
+    }
+}
